@@ -1,0 +1,32 @@
+defaults: &defaults
+  :log_level: warn
+  :mongo:
+    :host: localhost
+    :database: foobar
+    :port: 27017
+    
+:development:
+  <<: *defaults
+  :log_level: debug
+  :mongo:
+    :host: localhost
+    :database: foobar
+    :port: 27017
+
+:test:
+  <<: *defaults
+  :mongo:
+    :host:
+    :database:
+    :port:
+    :username:
+    :password:
+
+:production:
+  <<: *defaults
+  :mongo:
+    :host: localhost
+    :database: foobar
+    :port: 27017
+    :username:
+    :password:
