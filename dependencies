@@ -17,6 +17,7 @@ jnunemaker-validatable 1.8.4
 activesupport 2.3.5
 plucky 0.3.2
 versioned 0.2.1
+addressable 2.1.2
 
 graticule 0.2.12
 hpricot 0.8.2
