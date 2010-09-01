@@ -1,37 +1,36 @@
-Yasumi
-====
+    _/    _/   _/_/_/                           _/       
+     _/   _/       _/  _/_/_/ _/  _/  _/   _/         
+      _/_/   _/_/ _/ _/      _/  _/ _/ _/_/_/ _/
+       _/  _/   _/  _/_/_/   __/_/ _/  _/ _/  _/        
+     _/    _/_/_/        _/       _/         _/  
+    _/             _/_/_/                                                     
+  _/
 
-Monk-based framework for web development.
+a Sinatra skeleton inspired by monkrb, for restful(zzz) web development.
 
 Description
 -----------
 
-Monk is a glue framework for web development - that comes with 
-many niceties to manage your application.
-
-Yasumi is a version of the skeleton app with:
-- long polling
-- update helpers using memcached
-- hpricot for HTML/XML work
-- using MongoDB and mongo_mapper for persistence
-- lots of rack middleware for
-- openid
-- offline
-- HTML5 detection
-- IP throttling
+a glue framework for web development - that comes with 
+* helpers using memcached
+* using MongoDB and mongo_mapper for persistence
+* lots of rack middleware for
+  * openid
+  * offline and HTML5 feature detection
+  * IP throttling
+  * browser detection
 
 Usage
 -----
-    $ sudo gem install monk
-    $ monk init ???
+`git clone`
 
 Notes
 -----
-Still in very experimental stage, as the "football-inspired" line of software rolls out at Sidlr.com, this skeleton will undergo violent, very violent upgrades
+This skeleton will undergo violent, very violent upgrades
 
-Still, good reference
-CheerS!!!
+Cheers!!!
+
 
 License
 -------
-Apache Software Licence v2 ?
+Apache Software Licence v2
