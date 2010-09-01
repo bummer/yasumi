@@ -2,31 +2,40 @@ defaults: &defaults
   :log_level: warn
   :mongo:
     :host: localhost
-    :database: foobar
     :port: 27017
+  :cache: false
     
 :development:
   <<: *defaults
   :log_level: debug
   :mongo:
+    :database: test
     :host: localhost
-    :database: foobar
     :port: 27017
 
 :test:
   <<: *defaults
   :mongo:
-    :host:
-    :database:
-    :port:
-    :username:
-    :password:
+    :host: localhost
+    :database: 
+    :port: 27017
+  :ipthrottle:
+    :dailymax: 100000000
+    :hourlymax: 10000
+    :interval: 0.0001
+  :cache: true
 
 :production:
   <<: *defaults
+  :log_level: debug
   :mongo:
-    :host: localhost
-    :database: foobar
-    :port: 27017
-    :username:
-    :password:
+    :host: 
+    :database: 
+    :port: 
+    :username: 
+    :password: 
+  :ipthrottle:
+    :dailymax: 1000000
+    :hourlymax: 1000
+    :interval: 0.001
+  :cache: true

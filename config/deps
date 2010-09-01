@@ -1,0 +1,34 @@
+haml 3.0.13 git://github.com/nex3/haml.git
+quietbacktrace 0.1.1 git://github.com/thoughtbot/quietbacktrace.git
+rack 1.1.0 git://github.com/rack/rack.git
+sinatra 1.0 git://github.com/sinatra/sinatra.git
+
+sinatra-reloader 0.5.0
+monkey-lib 0.5.2
+sinatra-advanced-routes 0.5.1
+sinatra-sugar 0.5.0
+
+bunyan 0.3.0
+
+warden 0.10.7
+
+memcached 0.19.5
+hpricot 0.8.2
+
+mongo 1.0.3
+bson 1.0.3
+
+mongo_mapper 0.8.2
+jnunemaker-validatable 1.8.4
+plucky 0.3.2
+versioned 0.2.1
+addressable 2.1.2
+
+graticule 0.2.12
+hpricot 0.8.2
+
+rack-openid 1.0.3
+ruby-openid 2.1.6
+rack-offline 0.6.1
+rack-html5 1.0.2
+rack-throttle 0.3.0
